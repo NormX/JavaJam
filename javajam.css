@@ -1,0 +1,306 @@
+body{
+    background-color: #FCEBB6;
+    background-image: url(background.gif);
+    color: #221811;
+    font-family: Verdana;
+}
+
+
+
+header{
+    background-color: #D2B48C;
+    background-image: url(javajamlogo.jpg);
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+#info{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    display: block;
+}
+
+h1{
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+main h2{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main h4, main h3{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+h4{
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border-bottom: 2px;
+    padding-bottom: 0;
+}
+
+main p{
+    padding-left: 3em;
+    padding-right: 2em;
+    word-wrap: normal;
+}
+
+main div{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main ul{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+
+nav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:link{
+    color: #FEF6C2;
+}
+
+nav a:visited{
+    color: #D2B48C;
+}
+
+nav a:hover{
+    color: #CC9933;
+}
+
+nav ul a{
+    text-decoration: none;
+    padding-left: 0;
+}
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#heroroad{
+    background-image: url(windingroad.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+}
+
+#heromugs{
+    background-image: url(mugs.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+}
+
+#heroguitar{
+    background-image: url(guitar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+}
+
+footer{
+    background-color: #D2B48C;
+    font-size: .60em;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-top: 5px #221811;
+}
+
+#wrapper{
+    background-color: #231814;
+    box-shadow: 5px 5px 5px #828282;
+    min-width: 900px;
+    max-width: 1280px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.floatleft{
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+header, nav, main, footer { display: block; }
+
+main {
+
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 200px;
+    display: block;
+    background-color: #FEF6C2;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+    width: 90%;
+	  border-spacing: 0;
+	  background-color: #ffffcc; }
+
+td, th { padding: 10px; }
+
+tr:nth-of-type(odd) { background-color: #d2d48c; }
+
+form { padding: 2em; }
+
+label { float: left;
+		display: block;
+		text-align: right;
+		width: 8em;
+		padding-right: 1em;
+		clear: left; }
+
+input, textarea { display: block; margin-bottom: 1em; }
+
+#mySubmits
+{
+  margin-left: 9.5em;
+
+}
+
+audio {
+        display: block;
+        margin-top: 1em;
+      }
+
+
+#mobile { display: none; }
+
+#desktop { display: inline; }
+
+@media only screen and (max-width: 1024px) {
+	body { background-image: none;
+		  margin: 0; }
+
+	#wrapper { width: auto;
+			  min-width: 0;
+			  margin: 0;
+			padding: 0;
+			  box-shadow: none; }
+
+	header { border-bottom: 5px solid #fef6c2 }
+
+  h1{  margin: 0;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 2.5em;
+}
+	nav { float: none;
+		 width: auto;
+		 padding-top: 0;
+     margin: 10px;
+		 font-size: 1.3em; }
+
+	nav li { display: inline-block; }
+
+	nav a { padding: 1em;
+		  width: 8em;
+		  font-weight: bold;
+		  border-style: none; }
+
+	nav ul { padding: 0;
+		   margin: 0; }
+  #heroroad {
+    padding: 0;
+  		   margin: 0;
+  }
+  #heromugs{
+    padding: 0;
+  		   margin: 0;
+  }
+  #heroguitar{
+    padding: 0;
+  		   margin: 0;
+  }
+
+	main { padding: 0;
+		  margin: 0;
+		  font-size: 90%; }
+}/*end media query*/
+
+@media only screen and (max-width: 768px) {
+
+  header {
+	background: url(javajammini.jpg) no-repeat;
+	height: 128px;
+	background-color: #D2B48C;
+	}
+
+   h1{
+       padding-left: 0;
+       text-align:center;
+       font-size: 2em;
+     }
+
+  nav {margin: 0; }
+
+	nav a { display: block;
+		  padding: 0.2em;
+		  width: auto;
+		  border-bottom: 1px;
+		  border-bottom-color: #fef6c2; }
+
+	nav li { display: block; }
+
+  main{padding-top: 1px}
+
+	h2 { padding-top: 0.5em;
+      padding-right: 0;
+      padding-bottom: 0;
+      padding-left: 0.5em;
+	    margin-right: 0.5em; }
+
+	.details { padding-left: 0;
+		   padding-right: 0; }
+
+	.floatleft { padding-left: 0.5em;
+			padding-right: 0.5em; }
+
+      #heroroad {
+        background-image: none;
+        height: auto;
+      }
+      #heromugs{
+        background-image: none;
+        height: auto;
+      }
+      #heroguitar{
+        background-image: none;
+        height: auto;
+      }
+
+	#mobile { display: inline; }
+
+	#desktop { display: none; }
+}/*end media query 768
