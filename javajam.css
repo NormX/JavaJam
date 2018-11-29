@@ -112,12 +112,18 @@ img{
 }
 
 #heroguitar{
-    background-image: url(guitar.jpg);
+    background-image: url(heroguitar.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 250px;
 }
 
+#herocouch{
+    background-image: url(herocouch.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+}
 footer{
     background-color: #D2B48C;
     font-size: .60em;
@@ -181,6 +187,17 @@ label { float: left;
 		clear: left; }
 
 input, textarea { display: block; margin-bottom: 1em; }
+
+.item {
+  background-color: #faf9f7;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+  width: 80%;
+  padding: 1em;
+  overflow: auto;
+}
 
 #mySubmits
 {
